@@ -134,10 +134,14 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #2b5876, #4e4376);
+    background-color: #4e4376;
+    background-image: linear-gradient(to top, #BC8FA6, #4e4376);
+    background-size: 100%;
     -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-background-fill-color: transparent;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 .top-nav.open{
     top:0;
@@ -206,10 +210,14 @@ li{
 .landing-text h1{
     font-size: 20rem;
     font-family: 'Sofia', sans-serif;
-    background: linear-gradient(to top, #2b5876, #4e4376);
+    /*background-color: #4e4376;
+    background-image: linear-gradient(to top, #BC8FA6, #4e4376);
+    background-size: 100%;
     -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-background-fill-color: transparent;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;*/
     padding: 1rem;
     user-select: none;
 }
