@@ -365,7 +365,7 @@ li{
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
-   opacity: 0.8; 
+    opacity: 0.8; 
 }
 
 .project-description .cta{
@@ -510,6 +510,7 @@ input[type="submit"]:hover{
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
 
 .up i{
@@ -539,4 +540,127 @@ input[type="submit"]:hover{
 /*End animations*/
 
 /*Start media queries*/
+@media screen and (max-width: 768px) {
+    body{
+        background: url("images/bg1.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .landing-text h1{
+        font-size: 12rem;
+    }
+
+    .landing-text h4{
+        font-size: 2.8rem;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 2rem 0;
+    }
+
+    .nav-link{
+        font-size: 4.5rem;
+    }
+
+    .about-heading{
+        font-size: 7rem;
+    }
+
+    .section-heading h1{
+        font-size: 3rem;
+    }
+
+    .about-details .nav-list{
+        flex-direction: initial;
+    }
+
+    .about-details li{
+        margin: 1.2rem;
+    }
+
+    .icon-container{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .icon-container i{
+        font-size: 4rem;
+    }
+
+    .timeline ul{
+        margin: 0 0 0 auto;
+    }
+
+    .timeline .date::before{
+        left: -17rem;
+    }
+
+    .timeline .date::after{
+        left: -5.3rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 8rem;
+    }
+
+    .landing-text h4{
+        font-size: 1.4rem;
+    }
+
+    .nav-link{
+        font-size: 3.5rem;
+    }
+
+    .about .container{
+        flex-direction: column;
+    }
+
+    .profile-img{
+        margin: 0 0 7rem 4rem;
+    }
+
+    .project-item{
+        flex-direction: column;
+    }
+
+    .project-img{
+        margin: 0 0 2rem 9rem;
+        order: 1;
+    }
+
+    .project-description{
+        margin: 0;
+        order: 2;
+    }
+
+    .timeline p{
+        font-size: 1.6rem;
+    }
+
+    .timeline .date::before{
+        font-size: 1.4rem;
+    }
+
+    form{
+        width: 100;
+    }
+
+    .up{
+        right: 2rem;
+    }
+
+
+}
 /*End media queries*/
