@@ -226,6 +226,11 @@ li{
     font-size: 3rem;
     font-weight: 70;
 }
+
+.landing-text h2{
+    font-size: 6rem;
+    font-weight: 70;
+}
 /*End header*/
 
 /*Start about*/
